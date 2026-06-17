@@ -1,0 +1,47 @@
+name: makara
+description: "Aplikasi Manajemen Keuangan Mahasiswa berbasis Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # State Management & Arsitektur Aliran Data
+  provider: ^6.1.1
+
+  # Internasionalisasi & Formatter Angka/Tanggal
+  intl: ^0.19.0
+
+  # Database Lokal NoSQL Berkecepatan Tinggi
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Tipografi & Desain UI Modern
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.7.0
+
+  # Visualisasi Data Grafik Finansial
+  fl_chart: ^0.65.0
+
+  # Sistem Pengingat & Notifikasi Lokal (Rem Jajan)
+  flutter_local_notifications: ^17.0.0
+
+  # Gamifikasi & Animasi Interaktif Misi Hemat
+  lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # Generator Kode Otomatis untuk Adapter Hive
+  build_runner: ^2.4.8
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
